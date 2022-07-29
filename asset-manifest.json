@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/fanka-decor/static/css/main.188c984f.css",
+    "main.js": "/fanka-decor/static/js/main.7b386e8d.js",
+    "index.html": "/fanka-decor/index.html",
+    "main.188c984f.css.map": "/fanka-decor/static/css/main.188c984f.css.map",
+    "main.7b386e8d.js.map": "/fanka-decor/static/js/main.7b386e8d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.188c984f.css",
+    "static/js/main.7b386e8d.js"
+  ]
+}
