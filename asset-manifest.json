@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/fanka-decor/static/css/main.188c984f.css",
-    "main.js": "/fanka-decor/static/js/main.8de30a32.js",
+    "main.js": "/fanka-decor/static/js/main.93d07e24.js",
     "index.html": "/fanka-decor/index.html",
     "main.188c984f.css.map": "/fanka-decor/static/css/main.188c984f.css.map",
-    "main.8de30a32.js.map": "/fanka-decor/static/js/main.8de30a32.js.map"
+    "main.93d07e24.js.map": "/fanka-decor/static/js/main.93d07e24.js.map"
   },
   "entrypoints": [
     "static/css/main.188c984f.css",
-    "static/js/main.8de30a32.js"
+    "static/js/main.93d07e24.js"
   ]
 }
