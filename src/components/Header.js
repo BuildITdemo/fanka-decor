@@ -37,7 +37,7 @@ const Header = () => {
 
     const ctaClickHandler = () => {
         menuToggleHandler();
-        navigate('/hivatalos');
+        navigate('/fanka-decor/hivatalos');
     }
 
     return (
@@ -51,16 +51,16 @@ const Header = () => {
                     }>
                     <ul>
                         <li>
-                            <Link to='/tajekoztato' onClick={menuToggleHandler}>Tájékoztató</Link>
+                            <Link to='/fanka-decor/tajekoztato' onClick={menuToggleHandler}>Tájékoztató</Link>
                         </li>
                         <li>
-                            <Link to='/arak' onClick={menuToggleHandler}>Árak</Link>
+                            <Link to='/fanka-decor/arak' onClick={menuToggleHandler}>Árak</Link>
                         </li>
                         <li>
-                            <Link to='/szallitasi-informaciok' onClick={menuToggleHandler}>Szállítási információk</Link>
+                            <Link to='/fanka-decor/szallitasi-informaciok' onClick={menuToggleHandler}>Szállítási információk</Link>
                         </li>
                         <li>
-                            <Link to='/rolam' onClick={menuToggleHandler}>Rólam</Link>
+                            <Link to='/fanka-decor/rolam' onClick={menuToggleHandler}>Rólam</Link>
                         </li>
                     </ul>
                     <button onClick={ctaClickHandler}>Hivatalos</button>
