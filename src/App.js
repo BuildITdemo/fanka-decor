@@ -11,10 +11,10 @@ function App() {
     <Layout>
       <Routes>
         <Route exact path="/fanka-decor" element={<Home />} />
-        <Route exact path="/tajekoztato" element={<Leaflet />} />
-        <Route exact path="/arak" element={<Prices />} />
-        <Route exact path="/szallitasi-informaciok" element={<DeliveryInformations />} />
-        <Route exact path="/rolam" element={<AboutMe />} />
+        <Route exact path="/fanka-decor/tajekoztato" element={<Leaflet />} />
+        <Route exact path="/fanka-decor/arak" element={<Prices />} />
+        <Route exact path="/fanka-decor/szallitasi-informaciok" element={<DeliveryInformations />} />
+        <Route exact path="/fanka-decor/rolam" element={<AboutMe />} />
       </Routes>
     </Layout>
   );
