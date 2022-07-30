@@ -9,9 +9,16 @@
         width: 100%;
         justify-content: space-around;
     }
-    .infos {
+    &__infos {
+        width: 100%;
         display: flex;
         align-items: center;
+        justify-content: center;
+    }
+    &__image {
+        display: flex;
+        width: 100%;
+        justify-content: center;
     }
 } 
 
