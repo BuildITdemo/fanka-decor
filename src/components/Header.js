@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useState, useLayoutEffect } from 'react'
 import classes from './Header.module.scss';
 import { BiMenuAltRight } from 'react-icons/bi';
 import { AiOutlineClose } from 'react-icons/ai';
@@ -12,6 +12,13 @@ const Header = () => {
         height: null
     });
 
+    useLayoutEffect(() => {
+        setSize({
+            width: window.innerWidth,
+            height: window.innerHeight,
+        })
+    }, [])
+    
     useEffect(() => {
         const handleResize = () => {
             setSize({
@@ -36,6 +43,7 @@ const Header = () => {
     }
 
     const ctaClickHandler = () => {
+        console.log(size.width < 768);
         menuToggleHandler();
         navigate('/fanka-decor/hivatalos');
     }
@@ -46,9 +54,9 @@ const Header = () => {
                 <h2 className={classes.header__content__logo}>FANKA DEKOR</h2>
                 <nav 
                     className={`
-                        ${classes.header__content__nav}
-                        ${menuOpen && size.width < 768 ? classes.isMenu : ""}`
-                    }>
+                    ${classes.header__content__nav}
+                    ${menuOpen && size.width < 768 ? classes.isMenu : ""}`
+                }>
                     <ul>
                         <li>
                             <Link to='/fanka-decor/tajekoztato' onClick={menuToggleHandler}>Tájékoztató</Link>
