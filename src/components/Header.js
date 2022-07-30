@@ -62,7 +62,7 @@ const Header = () => {
                         {/* <li>
                             <Link to='/fanka-decor/tajekoztato' onClick={menuToggleHandler}>Tájékoztató</Link>
                         </li> */}
-                        <li className={classes['nav-item']}>
+                        <li className='nav-item'>
                             <Link
                                 activeClass="active"
                                 to="infos"
@@ -76,7 +76,7 @@ const Header = () => {
                         {/* <li>
                             <Link to='/fanka-decor/arak' onClick={menuToggleHandler}>Árak</Link>
                         </li> */}
-                        <li className={classes['nav-item']}>
+                        <li className='nav-item'>
                             <Link
                                 activeClass="active"
                                 to="prices"
@@ -90,7 +90,7 @@ const Header = () => {
                         {/* <li>
                             <Link to='/fanka-decor/szallitasi-informaciok' onClick={menuToggleHandler}>Szállítási információk</Link>
                         </li> */}
-                        <li className={classes['nav-item']}>
+                        <li className='nav-item'>
                             <Link
                                 activeClass="active"
                                 to="delivery"
@@ -104,7 +104,7 @@ const Header = () => {
                         {/* <li>
                             <Link to='/fanka-decor/rolam' onClick={menuToggleHandler}>Rólam</Link>
                         </li> */}
-                        <li className={classes['nav-item']}>
+                        <li className='nav-item'>
                             <Link
                                 activeClass="active"
                                 to="aboutme"
