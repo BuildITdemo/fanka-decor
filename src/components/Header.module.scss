@@ -6,7 +6,7 @@
     height: $headerHeight;
     padding: 0 1.5rem;
     z-index: 100;
-    position: sticky;
+    position: fixed;
     @include breakpoint(md) {
         padding: 0 3rem;
     }
@@ -84,11 +84,14 @@
                         transition: 0.3s ease all;
                         
                         &:hover {
-                            background: rgba($light, 0.1);
+                            background: rgba($primary, 0.2);
                         }
-                        &:active {
-                            border-radius: calc(#{$borderRadius} + 6px);
-                            background: linear-gradient(rgba($light, .1) rgba($light, 0.2));
+                        // &:active {
+                        //     border-radius: calc(#{$borderRadius} + 6px);
+                        //     background: linear-gradient(rgba($light, .1) rgba($light, 0.2));
+                        // }
+                        &.active {
+                            border: 1px solid red;
                         }
                     }
                 }
