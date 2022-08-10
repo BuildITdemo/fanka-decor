@@ -13,10 +13,9 @@
     z-index: 1;
     flex-direction: column;
 
-    & > div {
+    & > div:first-child {
         min-height: 100vh;
         width: 100%;
-        border: 1px dashed lightblue;
     }
 
     h1 {
