@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/fanka-decor/static/css/main.a3b89234.css",
-    "main.js": "/fanka-decor/static/js/main.70ba69f5.js",
+    "main.css": "/fanka-decor/static/css/main.d4e61d61.css",
+    "main.js": "/fanka-decor/static/js/main.cbc19c23.js",
     "static/media/home_img.png": "/fanka-decor/static/media/home_img.25398c6d3701554c4f83.png",
     "static/media/fanka_decor_logo.png": "/fanka-decor/static/media/fanka_decor_logo.d4b37d6446ebda391070.png",
     "static/media/instagram.png": "/fanka-decor/static/media/instagram.776d16d0e9daa177afd5.png",
     "static/media/facebook.png": "/fanka-decor/static/media/facebook.ec5c730cfe163b1e5ed8.png",
     "index.html": "/fanka-decor/index.html",
-    "main.a3b89234.css.map": "/fanka-decor/static/css/main.a3b89234.css.map",
-    "main.70ba69f5.js.map": "/fanka-decor/static/js/main.70ba69f5.js.map"
+    "main.d4e61d61.css.map": "/fanka-decor/static/css/main.d4e61d61.css.map",
+    "main.cbc19c23.js.map": "/fanka-decor/static/js/main.cbc19c23.js.map"
   },
   "entrypoints": [
-    "static/css/main.a3b89234.css",
-    "static/js/main.70ba69f5.js"
+    "static/css/main.d4e61d61.css",
+    "static/js/main.cbc19c23.js"
   ]
 }
